@@ -1,0 +1,36 @@
+{
+  "name": "react-hook-use-prevent-leave",
+  "version": "0.0.1-beta.3",
+  "description": "A react custom hook to prevent leaving by tab close or page refresh.",
+  "scripts": {
+    "rollup": "rm -rf dist && rollup -c",
+    "prepublishOnly": "npm run rollup"
+  },
+  "keywords": [
+    "react",
+    "custom hook",
+    "prevent leave",
+    "block leave"
+  ],
+  "author": "Charlie (Tzu Yin)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tzynwang/react-hook-use-prevent-leave.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tzynwang/react-hook-use-prevent-leave/issues"
+  },
+  "license": "MIT",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^13.1.3",
+    "@rollup/plugin-typescript": "^8.3.0",
+    "@types/react": "^17.0.39",
+    "react": "^17.0.0",
+    "rollup": "^2.67.3",
+    "rollup-plugin-dts": "^4.1.0",
+    "tslib": "^2.4.0",
+    "typescript": "^4.5.5"
+  }
+}
