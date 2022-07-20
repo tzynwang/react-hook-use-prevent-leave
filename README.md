@@ -4,8 +4,9 @@
 npm i react-hook-use-prevent-leave
 ```
 
-A react custom hook to prompt confirm dialog when user try to close the tab or refresh the page.\
-This hook will NOT block the navigation leave; to prompt a confirmation for this, use `Prompt` from `react-router-dom` (also includes in the example codes.)
+- A react custom hook to prompt confirm dialog when user tries to close the tab or refresh the page
+- Supports TypeScript
+- NOTE: This hook will NOT block the navigation leave; to prompt a confirmation for this, use `Prompt` from `react-router-dom` (also includes in the example codes)
 
 <!-- TODO: add demo site -->
 
