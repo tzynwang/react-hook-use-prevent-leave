@@ -27,6 +27,7 @@ function PageShouldBeBlocked(): React.ReactElement {
 
   /* Hook */
   usePreventLeave(blockPage);
+  // Or just call usePreventLeave() without passing any params, this mean the page will always be blocked.
 
   /* Main */
   return (
