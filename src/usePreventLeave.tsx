@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 
-export default function usePreventLeave(block: boolean): void {
+export default function usePreventLeave(block: boolean = true): void {
   function preventCloseAndRefresh(event: BeforeUnloadEvent): string {
     const e = event || window.event;
     e.preventDefault();
