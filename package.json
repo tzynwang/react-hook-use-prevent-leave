@@ -1,6 +1,6 @@
 {
   "name": "react-hook-use-prevent-leave",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A react custom hook to prevent leaving by tab close or page refresh.",
   "scripts": {
     "rollup": "rm -rf dist && rollup -c",
