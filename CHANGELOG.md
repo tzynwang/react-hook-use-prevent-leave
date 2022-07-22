@@ -1,5 +1,6 @@
 ## TBC
 - [feature] minify bundles by rollup-plugin-terser
+- [feature] add CHANGELOG
 
 ## 1.0.0 (2022-07-21)
 - [feature] first release
