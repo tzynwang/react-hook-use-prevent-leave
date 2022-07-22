@@ -1,6 +1,7 @@
 import resolve from '@rollup/plugin-node-resolve';
 import typescript from '@rollup/plugin-typescript';
 import dts from 'rollup-plugin-dts';
+import { terser } from 'rollup-plugin-terser';
 
 const packageJson = require('./package.json');
 
@@ -14,7 +15,7 @@ export default [
         sourcemap: true,
       },
     ],
-    plugins: [resolve(), typescript({ tsconfig: './tsconfig.json' })],
+    plugins: [resolve(), typescript({ tsconfig: './tsconfig.json' }), terser()],
     external: ['react'],
   },
   {
