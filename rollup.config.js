@@ -10,7 +10,7 @@ export default [
     input: 'src/index.ts',
     output: [
       {
-        file: packageJson.module,
+        file: packageJson.main,
         format: 'esm',
         sourcemap: true,
       },
